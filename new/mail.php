@@ -31,8 +31,8 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) &&
         $mail->SMTPAuth = true;
         $mail->Username = 'info.advaitupvc@gmail.com';
         $mail->Password = 'jahhopnczqzqozou';
-        $mail->setFrom('info.advaitupvc@gmail.com', 'Rahul');
-        $mail->addAddress('info.advaitupvc@gmail.com');
+        $mail->setFrom('chandrushekar414@gmail.com', 'Rahul');
+        $mail->addAddress('chandrushekar414@gmail.com');
         $mail->isHTML(true);
         $mail->Subject = 'New Enquiry';
         $mail->Body = $html;
