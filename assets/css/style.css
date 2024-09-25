@@ -1687,3 +1687,14 @@ margin-left:65px
   font-size: 5px;
   color: var(--color-secondary);
 }
+
+.form-submit-btn{
+  width: 200px;
+  background-color: #1b2f45;
+  color: #ffffff;
+  margin: 10px 0 0 0;
+  border: none;
+  font-size: 18px;
+  border-radius: 3px;
+  padding: 4px;
+}
