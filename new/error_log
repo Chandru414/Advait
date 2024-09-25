@@ -1,0 +1,63 @@
+[16-Sep-2024 14:23:16 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/rb9qumprit5y/public_html/new/mail.php on line 2
+[16-Sep-2024 14:23:16 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/rb9qumprit5y/public_html/new/mail.php on line 5
+[16-Sep-2024 14:23:16 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/rb9qumprit5y/public_html/new/mail.php on line 6
+[16-Sep-2024 14:23:16 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/rb9qumprit5y/public_html/new/mail.php on line 7
+[16-Sep-2024 14:23:16 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/rb9qumprit5y/public_html/new/mail.php on line 8
+[16-Sep-2024 14:23:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/rb9qumprit5y/public_html/new/mail.php on line 10
+[16-Sep-2024 14:25:28 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php:1558
+Stack trace:
+#0 /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php(1340): PHPMailer->smtpSend('Date: Mon, 16 S...', '<table><tr><td>...')
+#1 /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home/rb9qumprit5y/public_html/new/mail.php(34): PHPMailer->send()
+#3 {main}
+  thrown in /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php on line 1558
+[16-Sep-2024 14:28:16 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php:1558
+Stack trace:
+#0 /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php(1340): PHPMailer->smtpSend('Date: Mon, 16 S...', '<table><tr><td>...')
+#1 /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home/rb9qumprit5y/public_html/new/mail.php(34): PHPMailer->send()
+#3 {main}
+  thrown in /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php on line 1558
+[17-Sep-2024 09:20:37 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php:1558
+Stack trace:
+#0 /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php(1340): PHPMailer->smtpSend('Date: Tue, 17 S...', '<table><tr><td>...')
+#1 /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home/rb9qumprit5y/public_html/new/mail.php(34): PHPMailer->send()
+#3 {main}
+  thrown in /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php on line 1558
+[17-Sep-2024 12:15:18 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php:1558
+Stack trace:
+#0 /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php(1340): PHPMailer->smtpSend('Date: Tue, 17 S...', '<table><tr><td>...')
+#1 /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home/rb9qumprit5y/public_html/new/mail.php(34): PHPMailer->send()
+#3 {main}
+  thrown in /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php on line 1558
+[17-Sep-2024 12:28:58 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php:1558
+Stack trace:
+#0 /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php(1340): PHPMailer->smtpSend('Date: Tue, 17 S...', '<table><tr><td>...')
+#1 /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home/rb9qumprit5y/public_html/new/mail.php(34): PHPMailer->send()
+#3 {main}
+  thrown in /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php on line 1558
+[17-Sep-2024 12:47:03 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php:1558
+Stack trace:
+#0 /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php(1340): PHPMailer->smtpSend('Date: Tue, 17 S...', '<table><tr><td>...')
+#1 /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home/rb9qumprit5y/public_html/new/mail.php(34): PHPMailer->send()
+#3 {main}
+  thrown in /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php on line 1558
+[17-Sep-2024 13:16:41 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php:1558
+Stack trace:
+#0 /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php(1340): PHPMailer->smtpSend('Date: Tue, 17 S...', '<table><tr><td>...')
+#1 /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php(1215): PHPMailer->postSend()
+#2 /home/rb9qumprit5y/public_html/new/mail.php(34): PHPMailer->send()
+#3 {main}
+  thrown in /home/rb9qumprit5y/public_html/new/smtp/class.phpmailer.php on line 1558
+[17-Sep-2024 13:59:38 UTC] PHP Fatal error:  Uncaught Error: Undefined class constant 'ENCRYPTION_STARTTLS' in /home/rb9qumprit5y/public_html/new/mail.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rb9qumprit5y/public_html/new/mail.php on line 21
+[17-Sep-2024 14:02:37 UTC] PHP Warning:  require(path/to/PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/rb9qumprit5y/public_html/new/mail.php on line 21
+[17-Sep-2024 14:02:37 UTC] PHP Fatal error:  require(): Failed opening required 'path/to/PHPMailer/src/Exception.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/rb9qumprit5y/public_html/new/mail.php on line 21
+[17-Sep-2024 14:04:01 UTC] PHP Warning:  require(path/to/PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/rb9qumprit5y/public_html/new/mail.php on line 21
+[17-Sep-2024 14:04:01 UTC] PHP Fatal error:  require(): Failed opening required 'path/to/PHPMailer/src/Exception.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/rb9qumprit5y/public_html/new/mail.php on line 21
