@@ -421,7 +421,7 @@ along with exceptional service quality.</p>
 
         </div>
 
-          <form method="post" id="frmContactus">
+        <!--  <form method="post" id="frmContactus">
                     <div class="contact-form">
                       <div class="form-group">
                        <label class="control-label col-sm-2" for="name"><h5>Name</h5></label>
@@ -441,7 +441,7 @@ along with exceptional service quality.</p>
                        <label class="control-label col-sm-2" for="phone"><h5>Phone</h5></label>
                        <div class="col-sm-10">
                         <input type="tel" class="form-control" placeholder="+91 xxxx-nnnnnn" id="phone" placeholder="Enter phone" name="phone" required>
-                       </div><!-- pattern="^[1-9]\d{9,9}$"-->
+                       </div>
                       </div>
                       <br>
                       <div class="form-group">
@@ -459,8 +459,15 @@ along with exceptional service quality.</p>
                        </div>
                       </div>
                      </div>
-                   </form>
+            </form>--> 
 
+            <form action="https://formsubmit.co/chandrushekar414@gmail.com" method="post"><!--https://formsubmit.co/el/zoloyi-->
+              <input type="text" id="name" placeholder="name">
+              <input type="email" id="email" placeholder="email">
+              <input type="text" id="phone" placeholder="email">
+              <input type="text" id="message" placeholder="name">
+              <button type="submit">send</button>
+            </form>
       </div>
     </section><!-- End Contact Section -->
   <footer id="footer" class="footer">
@@ -481,6 +488,7 @@ along with exceptional service quality.</p>
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="assets/js/jquery.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -493,11 +501,11 @@ along with exceptional service quality.</p>
 <!--- email --->
 
 <script>
-  console.log('test version 4');
+ /* console.log('test version 4');
   jQuery('#frmContactus').on('submit',function(e){
   jQuery('#msg').html('');
-  // jQuery('#submit').html('Please wait');
-  // jQuery('#submit').attr('disabled',true);
+   jQuery('#submit').html('Please wait');
+   jQuery('#submit').attr('disabled',true);
   jQuery.ajax({
     url:'mail.php',
     type:'post',
@@ -510,7 +518,21 @@ along with exceptional service quality.</p>
     }
   });
   e.preventDefault();
-  });
+  }); */
+  function sendEmail(){
+    Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "chandrushekar414@gmail.com",
+    Password : "A5C246BB2A60CF830F9631630FF9A9A5ABF9",
+    To : "demo020895@yopmail.com",
+    From : "chandrushekar414@gmail.com",
+    Subject : "contact form enquiry",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+  }
+
   </script>
   <!-- end of email ---->
 </body>
